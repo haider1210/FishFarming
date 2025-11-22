@@ -701,58 +701,73 @@ user-select: none;
 /* booking form style */
 
 .booking .book-form {
-  font-size: large;
-  padding: 1rem;
-  background: #537e7e9f;
-  margin: 1rem 1rem;
-  color: black;
+  background: #47858231;
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 900px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  font-size: 1rem;
 }
+
 .booking .book-form .flex {
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
 .booking .book-form .flex .inputBox {
-  flex: 1 1 32rem;
+  flex: 1 1 45%;
+  display: flex;
+  flex-direction: column;
 }
+
 .booking .book-form .flex .inputBox span {
-  font-size: 4rem;
-  font-weight: bold;
-  color: black;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.5rem;
 }
 
 .booking .book-form .flex .inputBox input {
-  width: 100%;
-  padding: 1.2rem 1.4rem;
+  padding: 0.9rem 1.1rem;
   font-size: 1rem;
-  color: var(--light-black);
-  text-transform: none;
-  margin-top: 1.5rem;
-  border: var(--border);
-}
-
-.booking .book-form .btn {
-  margin-top: 2rem;
-  text-align: center;
-  align-items: center;
-  border-radius: 9%;
+  border: 1px solid #c9d6d6;
+  border-radius: 8px;
+  transition: 0.3s ease;
+  background: #fff;
 }
 
 .booking .book-form .flex .inputBox input:focus {
-  background: var(--black);
-  color: var(--white);
+  border-color: #007f7f;
+  box-shadow: 0 0 5px rgba(0,127,127,0.4);
+  background: #eefafa;
+  outline: none;
 }
 
-.booking .book-form .flex .inputBox input:focus::placeholder {
-  color: var(--light-white);
+.booking .book-form .flex .inputBox input::placeholder {
+  color: #999;
 }
 
-.booking .book-form .flex .inputBox span {
-  font-size: 1rem;
-  color: var(--light-black);
+/* Button Styling */
+.booking .book-form .btn {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.9rem 2.2rem;
+  background: #007f7f;
+  color: white;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border: none;
+  transition: 0.3s;
 }
 
+.booking .book-form .btn:hover {
+  background: #005c5c;
+  transform: translateY(-2px);
+}
 
 @media (max-width: 1200px) {
   section {
