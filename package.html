@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>package</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+
+<section class="header">
+    <a class="logo" href="home.html">AquaLife</a>
+
+    <nav class="navbar">
+        <a href="index.html">home</a>
+        <a href="about.html">about</a>
+        <a href="package.html">Fishes</a>
+        <a href="book.html">Add+</a>
+    </nav>
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+</section>
+
+<div class="heading" style="background:url(images/aq3.gif)">
+    <h1>explore the aquatic life</h1>
+</div>
+
+<section class="package">
+    <h1 class="heading-title">Our Top Fishes</h1>
+    
+    <div class="search-area">
+    <input type="text" id="searchInput" placeholder="Search fish by name...">
+    <i class="fas fa-search search-icon"></i>
+</div>
+
+    <div class="box-container" id="fish-container"></div>
+
+    <div class="load-more"><span id="loadMoreBtn" class="btn">load more</span></div>
+</section>
+
+<section class="footer">
+    <div class="box-container">
+        <div class="box"> 
+            <h3>quick links</h3>
+            <a href="index.html"><i class="fas fa-angle-right"></i>home</a>
+            <a href="about.html"><i class="fas fa-angle-right"></i>about</a>
+            <a href="package.html"><i class="fas fa-angle-right"></i>fishes</a>
+            <a href="book.html"><i class="fas fa-angle-right"></i>add+</a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#"><i class="fas fa-angle-right"></i>ask questions</a>
+            <a href="#"><i class="fas fa-angle-right"></i>about us</a>
+            <a href="#"><i class="fas fa-angle-right"></i>privacy policy</a>
+            <a href="#"><i class="fas fa-angle-right"></i>terms of use</a> 
+        </div>
+
+        <div class="box">
+            <h3>Contact info</h3>
+            <a href="#"><i class="fas fa-phone"></i> +123-456-7890</a>
+            <a href="#"><i class="fas fa-phone"></i> +111-222-3333</a>
+            <a href="#"><i class="fas fa-envelope"></i>kaifalam1012@gmail.com</a>
+            <a href="#"><i class="fas fa-map"></i>Saltlake, Kolkata</a>
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#"><i class="fab fa-twitter"></i>twitter</a>
+            <a href="#"><i class="fab fa-linkedin"></i>linkedin</a>
+            <a href="#"><i class="fab fa-github"></i>github</a>
+        </div>
+    </div>
+
+    <div class="credit">created by <span>Kaif Alam</span> | all rights reserved</div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+  const container = document.getElementById("fish-container");
+  const loadMoreBtn = document.getElementById("loadMoreBtn");
+  const searchInput = document.getElementById("searchInput");
+
+  const initialLoad = 6;      // show 6 initially
+  const itemsPerClick = 3;    // load 3 per click
+  let shownCount = 0;
+  let fishData = [];
+  let filteredData = [];
+
+  // fetch data
+  fetch("data/fishes.json")
+    .then(res => res.json())
+    .then(data => {
+      fishData = Array.isArray(data) ? data : [];
+      filteredData = fishData;
+      buildAllCards(filteredData);
+      showNextBatch();
+    });
+
+  // Build all cards (hidden)
+  function buildAllCards(list) {
+    container.innerHTML = "";
+    shownCount = 0;
+
+    const fragment = document.createDocumentFragment();
+
+    list.forEach((fish, idx) => {
+      const box = document.createElement("div");
+      box.className = "box";
+      box.dataset.index = idx;
+
+      box.innerHTML = `
+      <div class="image">
+        <img src="${escapeHtml(fish.image || 'images/placeholder.jpg')}" alt="${escapeHtml(fish.name || 'Fish')}">
+      </div>
+
+      <div class="content">
+        <h3>${escapeHtml(fish.name || '')}</h3>
+        <p>${escapeHtml(fish.short_description || '')}</p>
+
+      <div class="details-grid">
+          <div class="left">
+              <p><strong>Life Span:</strong> ${fish.age || 'N/A'}</p>
+              <p><strong>Color:</strong> ${fish.colors || 'N/A'}</p>
+          </div>
+
+          <div class="right">
+              <p><strong>Size:</strong> ${fish.size || 'N/A'}</p>
+              <p><strong>Water Type:</strong> ${fish.water_type || 'N/A'}</p>
+          </div>
+      </div>
+        <a href="fishdetails.html?name=${encodeURIComponent(fish.name)}" class="btn">Explore</a>
+       
+      </div>
+      `;
+
+      fragment.appendChild(box);
+    });
+
+    container.appendChild(fragment);
+  }
+
+  // Show next batch of cards
+  function showNextBatch() {
+    const boxes = Array.from(container.querySelectorAll(".box"));
+    if (boxes.length === 0) {
+      loadMoreBtn.style.display = "none";
+      return;
+    }
+
+    let limit = shownCount === 0 ? initialLoad : itemsPerClick;
+    let revealed = 0;
+
+    for (let i = shownCount; i < boxes.length && revealed < limit; i++) {
+      boxes[i].classList.add("show");
+      revealed++;
+    }
+
+    shownCount += revealed;
+
+    loadMoreBtn.style.display = shownCount >= boxes.length ? "none" : "inline-block";
+  }
+
+  loadMoreBtn.addEventListener("click", showNextBatch);
+
+  // Search
+  searchInput.addEventListener("input", () => {
+    const value = searchInput.value.toLowerCase().trim();
+
+    filteredData = fishData.filter(fish =>
+      fish.name.toLowerCase().includes(value)
+    );
+
+    if (filteredData.length === 0) {
+      container.innerHTML = "<h3 style='text-align:center;color:red'>No fish found</h3>";
+      loadMoreBtn.style.display = "none";
+      return;
+    }
+
+    buildAllCards(filteredData);
+    showNextBatch();
+  });
+
+  // escape HTML
+  function escapeHtml(s) {
+    if (s === undefined || s === null) return "";
+    return String(s)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#039;");
+  }
+});
+
+</script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,221 @@
+[
+  {
+    "name": "Rohu",
+    "image": "images/rohu.jpg",
+    "short_description": "A fast-growing Indian carp widely used in aquaculture.",
+    "long_description": "Rohu (Labeo rohita) is one of the most economically important freshwater fish species in South Asia. It thrives in rivers, ponds, and lakes and is highly favored by farmers because of its exceptional growth rate and ability to adapt to a wide range of water conditions. Rohu plays a major role in polyculture systems alongside Catla and Mrigal. Its meat is mild, soft, and rich in nutrients, making it a preferred choice for consumers across India, Bangladesh, and Nepal. The fish matures quickly and can reach market size within a year when raised in optimal conditions. Due to its high commercial demand, Rohu farming has become one of the most profitable ventures in inland aquaculture.",
+    "age": "6–8 years",
+    "water_type": "Freshwater",
+    "size": "35–45 cm",
+    "colors": "Silver, bluish-green"
+  },
+  {
+    "name": "Catla",
+    "image": "images/catla.jpg",
+    "short_description": "A surface-feeding carp with rapid growth and large size.",
+    "long_description": "Catla (Gibelion catla) is a fast-growing freshwater carp recognized by its large head, wide mouth, and deep body. It is one of the top cultured fish in South Asia and is often farmed together with Rohu and Mrigal in composite fish culture systems. Catla primarily feeds on plankton and grows to an impressive size within a short time, making it ideal for commercial fish farms. Its meat is softer and contains higher fat compared to other carps, making it popular in regional cuisines. Catla is also valued for its robustness, disease resistance, and adaptability, which reduces farming risks for producers.",
+    "age": "8–10 years",
+    "water_type": "Freshwater",
+    "size": "80–110 cm",
+    "colors": "Silver, gray"
+  },
+  {
+    "name": "Tilapia",
+    "image": "images/Tilapia2.jpg",
+    "short_description": "One of the world’s most farmed fish due to quick growth.",
+    "long_description": "Tilapia is one of the most widely cultivated fish globally because of its impressive growth speed, disease resistance, and adaptability to various water conditions. Originating from Africa, it has become a major aquaculture species in Asia due to its low production cost and high market demand. Tilapia feeds on natural pond organisms and simple plant-based diets, which reduces farming expenses. Its flesh is mild, firm, and free of strong odors, making it suitable for international export and processed products like fillets and frozen fish. The species grows rapidly and reaches market size in just 4–6 months, making it extremely profitable for farmers.",
+    "age": "6–10 years",
+    "water_type": "Freshwater",
+    "size": "30–40 cm",
+    "colors": "Silver, gray, red varieties"
+  },
+  {
+    "name": "Mrigal",
+    "image": "images/rohu.jpg",
+    "short_description": "A bottom-feeding carp popular in composite aquaculture.",
+    "long_description": "Mrigal (Cirrhinus mrigala) is an Indian major carp widely used in polyculture systems along with Catla and Rohu. Unlike Catla (surface feeder) and Rohu (column feeder), Mrigal feeds at the bottom of the pond, making it the perfect species for ecological balance in aquaculture systems. Its diet consists mainly of detritus, decomposed organic matter, and small organisms, which makes it inexpensive to raise. The fish is known for its strong tolerance to various water conditions and fast growth rates. Mrigal's meat is tender with a fine texture, and it is highly preferred in eastern Indian cuisines.",
+    "age": "8–12 years",
+    "water_type": "Freshwater",
+    "size": "40–60 cm",
+    "colors": "Silver"
+  },
+  {
+    "name": "Silver Carp",
+    "image": "images/rohu.jpg",
+    "short_description": "A fast-growing plankton feeder ideal for large-scale aquaculture.",
+    "long_description": "Silver Carp (Hypophthalmichthys molitrix) is known for its extremely fast growth and ability to consume large quantities of phytoplankton. It plays a vital role in maintaining pond water quality by naturally controlling algal blooms. Silver Carp is commonly farmed in Asia, where it is used in multi-species systems due to its non-competitive feeding habits. The fish’s long, slender body and rapid weight gain make it a valuable commodity in commercial markets. It is also considered one of the most environmentally friendly fish to farm because it primarily feeds on naturally occurring microorganisms instead of processed feed.",
+    "age": "15–20 years",
+    "water_type": "Freshwater",
+    "size": "60–100 cm",
+    "colors": "Silver-white"
+  },
+  {
+    "name": "Grass Carp",
+    "image": "images/rohu.jpg",
+    "short_description": "A herbivorous carp widely used for weed control.",
+    "long_description": "Grass Carp (Ctenopharyngodon idella) is a highly efficient herbivorous fish known for its ability to consume large amounts of aquatic vegetation. Farmers often use it to control weed growth in lakes, ponds, and reservoirs. Its exceptional growth rate allows it to reach very large sizes in just a few years. Grass Carp's calm nature and minimal feed requirements make it a cost-effective species for aquaculture. It also has firm, lean meat that is widely consumed in many Asian countries. The species plays an important ecological role by preventing overgrowth of aquatic plants and supporting a balanced pond environment.",
+    "age": "10–15 years",
+    "water_type": "Freshwater",
+    "size": "80–120 cm",
+    "colors": "Dark gray, silver"
+  },
+  {
+    "name": "Barramundi",
+    "image": "images/rohu.jpg",
+    "short_description": "A premium fish known for its rich taste and fast growth.",
+    "long_description": "Barramundi (Lates calcarifer) is a high-value aquaculture species prized for its delicious taste, flaky texture, and high nutritional value. Found in freshwater, brackish, and marine waters, it adapts extremely well to controlled farming environments. Barramundi is capable of rapid growth and can reach market size within 5–7 months. It is widely consumed across Southeast Asia and Australia and is considered a luxury seafood item in international markets. The fish is packed with omega-3 fatty acids and lean protein. Its ability to thrive in variable salinity levels makes it an ideal candidate for inland saline aquaculture.",
+    "age": "20 years",
+    "water_type": "Freshwater/Brackish",
+    "size": "60–120 cm",
+    "colors": "Silver, grey"
+  },
+  {
+    "name": "Pangasius",
+    "image": "images/rohu.jpg",
+    "short_description": "A major export fish known for soft white meat.",
+    "long_description": "Pangasius (Pangasianodon hypophthalmus) is a fast-growing catfish widely farmed in Vietnam, India, and Bangladesh. It has soft, white flesh with a mild flavor, making it extremely popular in export markets, especially in Europe and North America. Pangasius is inexpensive to raise because it efficiently converts feed into body mass, making it a profitable species for commercial aquaculture. Its calm nature and schooling behavior make it easy to culture in high densities. The fish is often processed into frozen fillets, fish sticks, and ready-to-eat products due to its uniform texture.",
+    "age": "6–8 years",
+    "water_type": "Freshwater",
+    "size": "50–100 cm",
+    "colors": "Silver, light gray"
+  },
+  {
+    "name": "Hilsa",
+    "image": "images/rohu.jpg",
+    "short_description": "A premium migratory fish known for its iconic flavor.",
+    "long_description": "Hilsa (Tenualosa ilisha) is one of the most celebrated fish species in South Asia, especially in West Bengal and Bangladesh. Known as the 'Queen of Fishes', Hilsa has a unique, rich, oily flavor and a delicate texture that makes it highly prized. It is an anadromous species, meaning it migrates from the sea into rivers to spawn. This migration contributes to its distinct taste and nutritional profile. Hilsa has a cultural significance as well and is featured in many traditional Bengali dishes. Despite its popularity, it is challenging to farm because it requires specific environmental conditions and long migration routes.",
+    "age": "5–7 years",
+    "water_type": "Freshwater/Marine",
+    "size": "30–60 cm",
+    "colors": "Silver"
+  },
+  {
+    "name": "Betta Fish",
+    "image": "images/rohu.jpg",
+    "short_description": "A colorful aquarium fish known for its fighting spirit.",
+    "long_description": "Betta fish (Betta splendens), often called the Siamese Fighting Fish, are famous for their stunning fins and vibrant colors. They originate from shallow rice paddies and ditches in Thailand and are adapted to breathe atmospheric oxygen using their labyrinth organ. Male bettas are territorial and display aggressive behavior, which has contributed to their cultural history in competitive fish fighting. Today, they are primarily kept as ornamental fish and come in a wide array of tail shapes such as veil tail, crown tail, half-moon, and double tail. Bettas thrive in warm water and prefer living alone due to their territorial instincts.",
+    "age": "3–5 years",
+    "water_type": "Freshwater",
+    "size": "5–8 cm",
+    "colors": "Red, blue, purple, turquoise"
+  },
+  {
+    "name": "Goldfish",
+    "image": "images/rohu.jpg",
+    "short_description": "A popular ornamental fish found in aquariums worldwide.",
+    "long_description": "Goldfish (Carassius auratus) are among the oldest domesticated fish species, first bred in China more than a thousand years ago. Known for their bright colors and friendly nature, goldfish come in a wide variety of shapes, fin structures, and patterns. They are hardy and can adapt to many water conditions, making them ideal for beginners. Fancy varieties like the Oranda, Ranchu, Ryukin, and Fantail are especially prized in the aquarium hobby. Goldfish require clean water and spacious tanks to thrive, as they produce significant waste. When cared for properly, they can live for over a decade.",
+    "age": "10–15 years",
+    "water_type": "Freshwater",
+    "size": "15–25 cm",
+    "colors": "Orange, red, white, gold"
+  },
+  {
+    "name": "Guppy",
+    "image": "images/rohu.jpg",
+    "short_description": "A small, colorful, fast-breeding aquarium fish.",
+    "long_description": "Guppies (Poecilia reticulata) are one of the most popular aquarium fish species in the world due to their small size, peaceful behavior, and vibrant colors. They are livebearers, meaning they give birth to fully formed fry instead of laying eggs. This trait, combined with their rapid breeding cycle, makes them fascinating for hobbyists who enjoy observing natural reproduction. Guppies thrive in community tanks and are available in hundreds of unique color patterns, tail shapes, and fin variations. They are hardy and can adapt to a range of water conditions, making them ideal for beginners and breeders alike.",
+    "age": "2–3 years",
+    "water_type": "Freshwater",
+    "size": "3–6 cm",
+    "colors": "Red, blue, yellow, orange, multicolor"
+  },
+  {
+  "name": "Trout",
+  "image": "images/rohu.jpg",
+  "short_description": "A cold-water freshwater fish known for its mild flavor and popularity in angling.",
+  "long_description": "Trout are freshwater fish belonging to the Salmonidae family and thrive in clean, cold, and highly oxygenated waters. They are widely distributed across Europe, Asia, and North America. Trout play a significant ecological role by supporting freshwater ecosystems and are often used as indicators of environmental health due to their sensitivity to pollution. They are also a major target for recreational fishing and commercial aquaculture.",
+  "age": "5–7 years",
+  "water_type": "Freshwater (cold, fast-flowing streams and rivers)",
+  "size": "25–80 cm depending on species",
+  "colors": "Silvery body with black or red spots; shades of olive, pink, or brown"
+},
+{
+  "name": "Barramundi",
+  "image": "images/rohu.jpg",
+  "short_description": "A premium aquaculture fish known for rapid growth and excellent flavor.",
+  "long_description": "Barramundi, also known as Asian sea bass, is a prized aquaculture species recognized for its adaptability and ability to grow in both freshwater and saltwater environments. It is native to the Indo-Western Pacific region and widely farmed due to its fast growth rate, strong disease resistance, and high market demand. Barramundi is also promoted for its nutritional value and mild, buttery taste.",
+  "age": "6–10 years",
+  "water_type": "Both freshwater and saltwater",
+  "size": "60–120 cm",
+  "colors": "Silver-grey with a metallic sheen"
+},
+{
+  "name": "Haddock",
+  "image": "images/rohu.jpg",
+  "short_description": "A North Atlantic saltwater fish known for its delicate white flesh.",
+  "long_description": "Haddock is a popular marine fish found in the North Atlantic Ocean, commonly harvested for commercial seafood markets. It is an important species in European cuisine, especially for smoked products and classic dishes like fish and chips. Haddock inhabit colder waters and feed on bottom-dwelling organisms. Although wild-caught, sustainable fisheries ensure controlled harvest levels.",
+  "age": "10–14 years",
+  "water_type": "Saltwater (North Atlantic)",
+  "size": "40–70 cm",
+  "colors": "Grey, silver, and white with a distinctive dark lateral line"
+},
+{
+  "name": "Mackerel",
+  "image": "images/rohu.jpg",
+  "short_description": "A fast-swimming oily fish rich in omega-3 fatty acids.",
+  "long_description": "Mackerel is a schooling marine fish well-known for its rich oil content, nutritional value, and presence in global seafood markets. Found in temperate and tropical oceans, mackerel forms massive shoals and migrates long distances. It is valued for its economical price, high protein content, and heart-healthy omega-3 oils. Mackerel supports large-scale commercial fisheries worldwide.",
+  "age": "5–7 years",
+  "water_type": "Saltwater (open ocean)",
+  "size": "25–40 cm",
+  "colors": "Irregular blue-green stripes on a silver body"
+},
+{
+  "name": "King Salmon",
+  "image": "images/rohu.jpg",
+  "short_description": "A premium salmon species known for its rich taste and large size.",
+  "long_description": "King Salmon, also known as Chinook Salmon, is one of the largest and most prized salmon species. Native to the Pacific Ocean, they are known for their intense migration patterns, where adults swim hundreds of kilometers upstream to spawn. Their meat is rich, flavorful, and high in healthy fats, making them a favorite in luxury seafood markets and fine dining. They are also farmed in controlled aquaculture environments.",
+  "age": "3–7 years",
+  "water_type": "Saltwater and freshwater (anadromous)",
+  "size": "70–150 cm",
+  "colors": "Blue-green back with silvery sides; spawning males turn reddish-brown"
+},
+{
+  "name": "Carp",
+  "image": "images/rohu.jpg",
+  "short_description": "A hardy freshwater fish widely used in global aquaculture.",
+  "long_description": "Carp are one of the world’s oldest and most widely farmed fish species. Known for their ability to thrive in varied environments and tolerate low oxygen levels, carp serve as a cornerstone of aquaculture systems across Asia and Europe. They have cultural significance, particularly in East Asia, where koi carp symbolize prosperity and peace. Carp are fast-growing, robust, and suitable for polyculture systems.",
+  "age": "15–20 years",
+  "water_type": "Freshwater",
+  "size": "30–120 cm depending on type",
+  "colors": "Olive green, golden, brown, or ornamental multicolor"
+},
+{
+  "name": "Bluefin Tuna",
+  "image": "images/rohu.jpg",
+  "short_description": "A large oceanic predator highly valued in sushi cuisine.",
+  "long_description": "Bluefin Tuna is one of the most iconic marine fish species, famous for its massive size and commercial value. Known for incredible speed and long-distance migration, the bluefin tuna is a top predator in open oceans. It is highly prized in Japanese sushi markets, where premium cuts like 'otoro' can fetch extremely high prices. Conservation efforts are in place due to past overfishing.",
+  "age": "25–40 years",
+  "water_type": "Saltwater (deep ocean)",
+  "size": "2–4 meters",
+  "colors": "Dark metallic blue on top with silver-white underbelly"
+},
+{
+  "name": "Betta Fish",
+  "image": "images/rohu.jpg",
+  "short_description": "A colorful ornamental fish known for its vibrant fins and territorial nature.",
+  "long_description": "Betta fish, or Siamese fighting fish, are popular ornamental species recognized for their extraordinary colors and long, flowing fins. Native to Thai rice fields, puddles, and slow-moving waters, bettas can breathe atmospheric air using a labyrinth organ, allowing them to survive in low-oxygen environments. They come in a wide variety of colors and fin types, making them a favorite in the aquarium hobby.",
+  "age": "2–4 years",
+  "water_type": "Freshwater (warm, slow-moving)",
+  "size": "5–7 cm",
+  "colors": "Red, blue, purple, turquoise, white, multicolor"
+},
+{
+  "name": "Swordfish",
+  "image": "images/rohu.jpg",
+  "short_description": "A powerful ocean predator known for its long, sword-like bill.",
+  "long_description": "Swordfish are large migratory fish recognized for their iconic 'sword' bill, which they use to slash and stun prey. They inhabit deep tropical and temperate oceans and are among the fastest swimmers in the marine world. Swordfish are a popular catch in commercial fisheries and valued for their firm, steak-like meat. They are also admired for their strength in sport fishing.",
+  "age": "9–12 years",
+  "water_type": "Saltwater (deep sea)",
+  "size": "1–4 meters",
+  "colors": "Dark blue on top and white underneath"
+},{
+  "name": "Sea Bass",
+  "image": "images/rohu.jpg",
+  "short_description": "A versatile and widely consumed marine fish with mild taste.",
+  "long_description": "Sea Bass includes several species found in shallow coastal waters and estuaries across the world. They are well-known for their tender, white meat and are commonly used in restaurants and aquaculture. Sea Bass adapt well to farming conditions, making them a key species in Mediterranean aquaculture systems. Their balanced flavor and texture make them a favorite among chefs.",
+  "age": "6–10 years",
+  "water_type": "Saltwater (coastal)",
+  "size": "30–70 cm",
+  "colors": "Grey, silver, or dark green"
+}
+]
